@@ -56,6 +56,39 @@ https://github.com/user-attachments/assets/8d635c4c-a1f2-44be-93ae-062038d14c71
 - Support automatic envelope adjustment
 - Support more snapshot types (track properties, device parameters, etc.)
 
+## ❓FAQ
+
+### Can an AI agent help with gain staging?
+Yes—especially for repetitive setup tasks in Arrangement View.
+
+With the existing MCP tools, an agent can typically:
+- Set track mixer levels and pan in batches
+- Load stock Ableton effects (for example Utility/Compressor chains) across multiple tracks
+- Adjust built-in device parameters consistently across a session
+- Re-check and normalize levels after clip duplication or arrangement changes
+
+Practical caveats:
+- It works best when you give a target workflow (for example: "leave headroom on each track, then rebalance drums vs bass").
+- Device-parameter workflows are strongest for built-in Live devices.
+- Full automation-envelope intelligence is still listed in the To-Do section.
+
+In short: the agent can remove a lot of repetitive clicking and rough-in gain structure quickly, but your ears should still make final decisions.
+
+
+### Can an AI agent help plan Ableton sets for live performance?
+Yes. While you'll still make final musical decisions, an agent can help you design a practical "live-ready" project structure for a duo.
+
+A useful starter workflow is:
+- Define your setlist and map each song to fixed sections (intro/verse/chorus/outro)
+- Standardize stems and click tracks so every song follows the same routing pattern
+- Build a reusable track template (backing stems, click/cues, live inputs, FX returns)
+- Create scene/locator conventions so navigation is predictable during performance
+- Document fail-safes (count-in bars, emergency stop scene, backup playback path)
+
+For this MCP specifically, an agent can already help with repetitive prep work in Arrangement View (track setup, clip placement, naming, level balancing, and stock-device parameter consistency). It cannot replace rehearsal and soundcheck, but it can dramatically reduce setup fatigue.
+
+Tip: if you share your exact live constraints (audio interface outputs, who needs click, how songs transition), the agent can generate a concrete set template and step-by-step setup checklist.
+
 ## ⚠️ Warning
 - Direct manipulation of MIDI clips by AI may result in the loss of original notes and cannot be undone with Ctrl + Z. Please operate with caution. If needed, you can ask the AI to help you roll back note operations.
 ## 📥 Installation
