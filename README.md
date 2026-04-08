@@ -74,21 +74,6 @@ Practical caveats:
 
 In short: the agent can remove a lot of repetitive clicking and rough-in gain structure quickly, but your ears should still make final decisions.
 
-
-### Can an AI agent help plan Ableton sets for live performance?
-Yes. While you'll still make final musical decisions, an agent can help you design a practical "live-ready" project structure for a duo.
-
-A useful starter workflow is:
-- Define your setlist and map each song to fixed sections (intro/verse/chorus/outro)
-- Standardize stems and click tracks so every song follows the same routing pattern
-- Build a reusable track template (backing stems, click/cues, live inputs, FX returns)
-- Create scene/locator conventions so navigation is predictable during performance
-- Document fail-safes (count-in bars, emergency stop scene, backup playback path)
-
-For this MCP specifically, an agent can already help with repetitive prep work in Arrangement View (track setup, clip placement, naming, level balancing, and stock-device parameter consistency). It cannot replace rehearsal and soundcheck, but it can dramatically reduce setup fatigue.
-
-Tip: if you share your exact live constraints (audio interface outputs, who needs click, how songs transition), the agent can generate a concrete set template and step-by-step setup checklist.
-
 ## ⚠️ Warning
 - Direct manipulation of MIDI clips by AI may result in the loss of original notes and cannot be undone with Ctrl + Z. Please operate with caution. If needed, you can ask the AI to help you roll back note operations.
 ## 📥 Installation
